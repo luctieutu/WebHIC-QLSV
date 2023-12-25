@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#header1 {
+    height: 140px;
+    width: 100%;
+    background-color: #0060AD;
+}
+.header1-left{
+    width: 58%;
+    padding: 6px;
+    float: left;
+}
+.header1-left img {
+    padding-left: 60px;
+}
+ .header1-right {
+    width: 42%;
+    float: left;
+    padding: 6px;
+}
+.header1-right img {
+    height: auto;
+    padding: 0px;
+}
+.header1-right a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color: white;
+}
+#menu {
+    margin-top: 5px;
+    margin-left: 7%;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+}
+#nav li {
+    position: relative;
+    display: inline-block;
+}
+#nav li b a {
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+    color: black;
+    font-size: 17px;
+}
+#nav li:hover b a {
+    color: rgb(255, 2, 2);
+    background-color: rgb(205, 200, 200);
+    border-radius: 5px;
+}
+#content {
+    width: 100%;
+
+    background-color: aqua;
+}
+#content .content1 {
+    width: 67%;
+    float: left;
+    padding: 6px;
+    margin-top: 20px;
+}
+#content .content1 .container {
+    width: 80%;
+    margin: auto;
+}
+#content .content2 {
+    float: left;
+    width: 25%;
+    padding: 6px;
+}
+#content .content2 img {
+    padding: 15px;
+}
+#cuoitrang {
+    background: #0060ad;
+    height: 150px;
+    width: 100%;
+    color: #fff;
+    padding-top: 5px;
+    text-align: right;
+    clear: both;
+}
+table {
+    text-align: center;
+    width: 100%;
+}
+#table_head {
+    background-color: #add8e6;
+    line-height: 35px;
+}
+#table_body  {
+    background-color: #ccc;
+    line-height: 35px;
+}
+.btn-search {
+    margin: 10px auto;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #4994d1;
+    color: #fff;
+    display: block;
+}
+.btn-action {
+    padding: 6px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #4994d1;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-item {
+    padding: 10px;
+    line-height: 25px;
+}
+.form-item label {
+    width: 15%;
+    display: block;
+    float: left;
+}
+.form-item input {
+    width: 85%;
+    border-radius: 3px;
+    padding: 3px;
+    height: 30px;
+    background: #bbbb;
+    border: none;
+}
+.form-itemm {
+    padding-top: 20px;
+    display: block;
+    padding-left: 120px;
+}
+.btn-submit {
+    margin: 10px auto;
+    display: block;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #4994d1;
+    color: #fff;
+}
+
